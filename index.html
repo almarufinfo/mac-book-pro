@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac-Book-E-commerce</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- start body -->
+
+<body>
+    <section class="mt-10 w-3/4 mx-auto">
+        <div class="lg:grid grid-cols-2 gap-5 ">
+            <div>
+                <img class="image-size" src="images/mac.png" alt="">
+            </div>
+            <div>
+                <h1 class="text-5xl font-bold">Customize Your Blue 24-inch Imac With Apple M1 Chip</h1>
+                <p class="text-2xl gap-4 mt-5">The Apple M1 is an ARM-based system on a chip. It was designed by Apple
+                    Inc.
+                    as a
+                    central processing unit and graphics processing unit for its Macintosh computers and iPad Pro
+                    tablets. It was inspired by their Apple A14 Bionic chip.
+                </p>
+                <h1 class="text-lg font-bold  mt-5">Memory</h1>
+                <div class="grid grid-cols-2 mt-2  ">
+
+                    <div>
+                        <button id="8gb-memory" class="border border-gray-900 px-2 btn-hover">8GB unified
+                            memory</button>
+                    </div>
+                    <div>
+                        <button id="16gb-memory" class="border border-gray-900 px-2 btn-hover">16GB unified
+                            memory</button>
+                    </div>
+                </div>
+                <h1 class="text-lg font-bold mt-5">Storage</h1>
+                <div class="grid grid-cols-3 mt-2 gap-1 ">
+
+                    <div>
+                        <button id="256gb-ssd" class="border border-gray-900 btn-hover">256GB SSD Storage</button>
+                    </div>
+                    <div>
+                        <button id="512gb-ssd" class="border border-gray-900 px-1 btn-hover">512GB SSD Storage</button>
+                    </div>
+                    <div>
+                        <button id="1tb-ssd" class="border border-gray-900 px-1 btn-hover">1TB SSD Storage</button>
+                    </div>
+                </div>
+                <h1 class="text-lg font-bold  mt-5">Choose your delivery option</h1>
+                <div class="grid grid-cols-2 mt-2 mb-10 gap-1 ">
+
+                    <div>
+                        <button id="delivery-charge" class="border border-gray-900 px-1 btn-hover">Friday,
+                            Aug-25 Free prime
+                            delivery</button>
+                    </div>
+                    <div>
+                        <button id="add-delivery-charge" class="border border-gray-900 px-1 btn-hover">Friday, Aug-21
+                            Delivery
+                            charge
+                            $20</button>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 border">
+                    <div>
+                        <h1 class="text-md font-bold">Best Price</h1>
+                    </div>
+                    <div>
+                        <h5 class="text-md font-bold">$<span id="sub-total">1299</span></h5>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 border">
+                    <div>
+                        <h1 class="text-md font-bold">Extra Memory Cost</h1>
+                    </div>
+                    <div>
+                        <h5 class="text-md font-bold">$<span id="extramemory-price">0</span></h5>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 border">
+                    <div>
+                        <h1 class="text-md font-bold">Extra Storage Cost</h1>
+                    </div>
+                    <div>
+                        <h5 class="text-md font-bold">$<span id="extrastorage-price">0</span></h5>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 border">
+                    <div class="">
+                        <h1 class="text-md font-bold">Extra Delivery Cost</h1>
+                    </div>
+                    <div class="">
+                        <h5 class="text-md font-bold">$<span id="extradelivery-price">0</span></h5>
+
+                    </div>
+                </div>
+
+                <hr class="underline mt-0">
+
+                <div class="grid grid-cols-2 mt-1  mb-5 ">
+                    <div>
+                        <h1 class="text-md font-bold">Total Cost</h1>
+                    </div>
+                    <div>
+                        <h5 class="text-md font-bold">$<span id="total-price">1299</span></h5>
+                    </div>
+
+                </div>
+                <h1 class="text-md font-bold">Add Promo Code</h1>
+                <div class="flex   mb-5 ">
+                    <div>
+                        <input id="promo-input" class="border-2 px-3 text-sm" type="text"
+                            placeholder="Enter your promo code">
+                    </div>
+                    <div>
+                        <button id="apply-btn" class="text-white bg-red-600 px-2 border-2 rounded-lg">Apply</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        </div>
+
+    </section>
+    <section class="border ">
+        <div class="flex justify-center text-2xl font-bold  mt-5 mb-5 ">
+            <div>
+                <h1 class="text-md font-bold">Total price:</h1>
+            </div>
+            <div>
+                <h5 class="text-md font-bold">$<span id="final-price">1299</span></h5>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/mac-book.js"></script>
+</body>
+
+</html>
